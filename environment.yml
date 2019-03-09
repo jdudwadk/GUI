@@ -1,11 +1,13 @@
-name: chemlg
+name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - python
   - numpy
-  - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-    - matplotlib
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
